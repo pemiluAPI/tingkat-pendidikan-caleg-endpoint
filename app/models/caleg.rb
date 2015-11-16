@@ -22,6 +22,7 @@ class Caleg < ActiveRecord::Base
     return {
       id: id,
       peserta: peserta,
+      nama_lengkap: nama_lengkap,
       sma_atau_sederajat: sma_atau_sederajat,
       d3_atau_akademi: d3_atau_akademi,
       d4_atau_s1: d4_atau_s1,
